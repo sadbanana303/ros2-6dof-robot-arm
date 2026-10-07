@@ -2,7 +2,7 @@
 
 A 6 degree-of-freedom robotic arm, modeled from scratch and simulated with physics-accurate gravity, torque, and momentum using ROS2 and Gazebo.
 
-![Demo]
+[Demo]
 
 <img width="970" height="864" alt="gazebo-ezgif com-gif-maker" src="https://github.com/user-attachments/assets/5c1df02c-f3e9-4248-9488-d7c9da0b4d00" />
 
@@ -11,7 +11,7 @@ A 6 degree-of-freedom robotic arm, modeled from scratch and simulated with physi
 
 This project models a 6-DOF robotic arm in URDF/xacro, connects it to ROS2's control framework (`ros2_control`), and simulates it in Gazebo with real physics. A trajectory controller drives all 6 joints through commanded poses, with joint dynamics (damping, torque limits) tuned to produce smooth, stable motion instead of oscillation or gravity-induced collapse.
 
-Built by [Your Name] and Giri Pranesh.
+Built by Nandana Narendra and Giri Pranesh.
 
 ## Stack
 
@@ -43,7 +43,7 @@ Gazebo physics simulation (gravity, torque, collision, momentum)
 ## Repository structure
 
 ```
-robot_arm_ws/
+ros2-6dof-robot-arm/
 ├── src/robot_arm_description/
 │   ├── urdf/              # Robot model (links, joints, ros2_control)
 │   ├── launch/             # Launch files (RViz display + Gazebo sim)
